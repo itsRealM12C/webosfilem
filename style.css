@@ -1,0 +1,47 @@
+html, body {
+	height:100%;
+	overflow: auto;
+	margin:0;
+	padding:0;
+}
+body {
+	font-size: 40px;
+	margin-left: 5px;
+}
+#header {
+	height: 10%;
+}
+
+table {
+	height:90%;
+	width:100%;
+}
+/*thead, tbody { 
+	display: block;
+}*/
+
+tbody#fileList {
+	height: 80%;       /* Just for the demo          */
+	overflow-y: auto;    /* Trigger vertical scroll    */
+	overflow-x: hidden;  /* Hide the horizontal scroll */
+}
+
+h1.header {
+	text-align: center;
+}
+.error {
+	color: red;
+}
+tr.folder td.icon {
+	color: #f4b342;
+}
+tr.file td.icon {
+	color: #4289f4;
+}
+tr.file.hidden {
+	color: darkgray;
+}
+tr.selected {
+	background-color: #e2e2e2;
+}
+	
